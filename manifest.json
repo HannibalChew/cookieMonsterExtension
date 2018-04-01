@@ -1,0 +1,30 @@
+{
+  "name" : "Cookie Monster",
+  "version" : "1.1",
+  "description" : "C is for cookie.",
+	"background": {
+		"page": "background.html"
+  },
+	"options_ui": {
+    "page": "config.html",
+    "chrome_style": true
+  },
+  "permissions": [
+		"cookies",
+		"<all_urls>",
+		"tabs",
+		"activeTab",
+		"windows",
+		"clipboardRead",
+		"storage"
+	],
+  "browser_action": {
+		"default_icon": "cookiemonster.png"
+  },
+	"icons": {
+		"16": "cookiemonster.png",
+	  "48": "cookiemonster.png",
+	  "128": "cookiemonster.png"
+	},
+  "manifest_version": 2
+}
